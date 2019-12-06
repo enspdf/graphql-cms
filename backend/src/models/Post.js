@@ -12,21 +12,22 @@ export default (sequelize, { BOOLEAN, STRING, TEXT, UUID, UUIDV4 }) => {
     },
     slug: {
       type: STRING,
+      unique: true,
       allowNull: false
     },
     readingTime: {
       type: STRING,
       allowNull: false,
-      default: "3 min"
+      defaultValue: "3 min"
     },
-    body: {
+    content: {
       type: TEXT,
       allowNull: false
     },
     language: {
       type: STRING,
       allowNull: false,
-      default: "es"
+      defaultValue: "es"
     },
     image: {
       type: STRING

@@ -8,7 +8,7 @@
         "password": "postgres"
     },
     "security": {
-        "secretKey": "randomKey",
+        "secretKey": "DB397EBD1F8FD89D7A1AB17513336",
         "expiresIn": "7d"
     }
 }
