@@ -12,7 +12,7 @@ export default (sequelize, { BOOLEAN, STRING, UUID, UUIDV4 }) => {
       type: STRING,
       allowNull: false,
       unique: true,
-      valiate: {
+      validate: {
         isAlphanumeric: {
           args: true,
           msg: "The user just accepts alphanumeric characters"
