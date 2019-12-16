@@ -14,6 +14,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.17.1",
+    "fogg-ui": "^1.2.2",
     "next": "^9.1.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
