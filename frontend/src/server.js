@@ -6,6 +6,8 @@ const dev = process.env.NODE_ENV !== "production";
 const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler();
 
+import config from "@config";
+
 nextApp.prepare().then(() => {
   const app = express();
 
@@ -19,5 +21,5 @@ nextApp.prepare().then(() => {
     return handle(req, res);
   });
 
-  app.listen(3000);
+  app.listen(config.serverPort);
 });
