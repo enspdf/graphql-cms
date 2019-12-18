@@ -2,6 +2,13 @@
     "serverPort": 3000,
     "languages": {
         "default": "es",
-        "list": ["es", "en"]
+        "list": [
+            "es",
+            "en"
+        ]
+    },
+    "security": {
+        "secretKey": "DB397EBD1F8FD89D7A1AB17513336",
+        "expiresIn": "7d"
     }
 }
